@@ -1,0 +1,8 @@
+only:
+  in:
+    prod:
+      yaml: prod
+
+my:
+  yaml:
+    prop: prod

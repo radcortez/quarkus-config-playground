@@ -1,0 +1,10 @@
+config_ordinal: 255
+
+only:
+  in:
+    base:
+      yaml: base
+
+my:
+  yaml:
+    prop: base
