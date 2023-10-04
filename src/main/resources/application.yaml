@@ -1,0 +1,6 @@
+quarkus:
+  datasource:
+    db-kind: h2
+    jdbc:
+      url: ${DATASOURCE_URL}
+    username: ${DATASOURCE_USERNAME}
