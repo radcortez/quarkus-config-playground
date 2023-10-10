@@ -1,6 +1,6 @@
 quarkus:
   datasource:
-    db-kind: h2
+    db-kind: postgresql
     jdbc:
       url: ${DATASOURCE_URL}
     username: ${DATASOURCE_USERNAME}
