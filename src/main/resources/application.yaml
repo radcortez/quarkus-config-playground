@@ -1,0 +1,7 @@
+quarkus:
+  management:
+    enabled: true
+    port: 9000
+  redis:
+    hosts: ${AUTH_CONSENT_REDIS_HOST:redis://127.0.0.1:63799}
+    password: ${AUTH_CONSENT_REDIS_PASSWORD:null}
