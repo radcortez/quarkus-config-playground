@@ -1,0 +1,6 @@
+my-service:
+  senders:
+    test:
+      prop1: 123
+      prop2: 456
+      prop3: 150
