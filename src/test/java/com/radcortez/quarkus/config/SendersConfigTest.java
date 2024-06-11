@@ -9,6 +9,8 @@ import org.junit.jupiter.api.Test;
 class SendersConfigTest {
     @Inject
     SendersConfig sendersConfig;
+    @Inject
+    SamTesterService samTesterService;
 
     @Test
     void sendersConfig() {

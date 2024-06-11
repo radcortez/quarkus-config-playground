@@ -4,3 +4,23 @@ my-service:
       prop1: 123
       prop2: 456
       prop3: 150
+
+sam-tester-service:
+  appVersion: ${ABC_APP_VERSION:"unknown"}
+  appEnvironment: ${ABC_APP_ENVIRONMENT:"unknown"}
+  appContext: ${ABC_APP_CONTEXT:"unknown"}
+
+  api:
+    client:
+      subscriptionKey: ${ABC_SAM_TESTER_API_SUBSCRIPTION_KEY:key}
+
+  newOrdersCollector:
+    trigger:
+      enabled: ${ABC_NEW_ORDERS_COLLECTOR_ENABLED:true}
+      everyExpression: ${ABC_NEW_ORDERS_COLLECTOR_SCHEDULE_EVERY_N_SECONDS:60s}
+
+  senders:
+    orange:
+      tCompanyId: 123
+      zCompanyId: 456
+      fanStatusCode: 150
