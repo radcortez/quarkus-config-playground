@@ -1,0 +1,7 @@
+aaa:
+  ldap:
+    pool:
+      value: value
+
+  logsummary:
+    period: 30s
